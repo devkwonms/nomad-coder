@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/nomad-coder.git/static/js/main.c0537470.js",
-    "index.html": "/nomad-coder.git/index.html",
-    "main.c0537470.js.map": "/nomad-coder.git/static/js/main.c0537470.js.map"
+    "main.js": "/nomad-coder/static/js/main.c0537470.js",
+    "index.html": "/nomad-coder/index.html",
+    "main.c0537470.js.map": "/nomad-coder/static/js/main.c0537470.js.map"
   },
   "entrypoints": [
     "static/js/main.c0537470.js"

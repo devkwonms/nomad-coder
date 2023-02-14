@@ -1,0 +1,31 @@
+<!doctype html><html><head><script defer="defer" src="/nomad-coder.git/static/js/main.c0537470.js"></script></head><body><div id="root"></div></body><script src="https://unpkg.com/react@17.0.2/umd/react.development.js"></script><script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script><script src="https://unpkg.com/prop-types@15.7.2/prop-types.js"></script><script src="https://unpkg.com/@babel/standalone/babel.min.js"></script><script type="text/babel">function Btn({text, fontSize = 16}){
+    return (
+    <button 
+      style={{
+        backgroundColor: "tomato",
+        color:"white",
+        padding:"10px 20px",
+        border : 0,
+        borderRadius: 10,
+        fontSize,
+      }}
+    >
+      {text}
+    </button>
+    );
+  }
+  Btn.propTypes = {
+    text : PropTypes.string.isRequired,
+    fontSize : PropTypes.number,
+  };
+
+  function App(){
+    return  (
+      <div>
+        <Btn text = "Save Changes" fontSize={18}/>
+        <Btn text = "Continue"/>
+      </div>
+    );
+  }
+  const root = document.getElementById("root");
+  ReactDOM.render(<App/>,root);</script></html>
